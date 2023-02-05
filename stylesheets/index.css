@@ -28,3 +28,26 @@ body{
 .navs2 ul li a:hover{
     color: black;
 }
+
+
+#hero{
+    padding: 5rem;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+}
+.hero-left h2{
+    font-size: 3.5rem;
+}
+.hero-left h1 a{
+    text-decoration: none;
+    color: red;
+}
+.hero-right img{
+    height: 350px;
+    border-radius: 50%;
+    border: 5px solid limegreen;
+}
