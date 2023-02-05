@@ -1,0 +1,30 @@
+body{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+#navbar{
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.navs1 h3{
+    font-size: 20px;
+}
+.navs2 ul{
+    list-style: none;
+    display: flex;
+    gap: 4em;
+}
+.navs2 ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: slategrey;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.navs2 ul li a:hover{
+    color: black;
+}
