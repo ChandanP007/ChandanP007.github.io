@@ -54,9 +54,9 @@ body{
     width: 60%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 10rem;
+    gap: 20rem;
 }
 .hero-left h2{
     font-size: 3.5rem;
