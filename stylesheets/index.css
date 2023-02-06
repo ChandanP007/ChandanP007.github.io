@@ -2,6 +2,7 @@ body{
     margin: 0; padding: 0;
     box-sizing: border-box;
     font-family: monospace;
+    overflow: hidden;
 }
 #navbar{
     border: 1px solid lightgray;
@@ -49,13 +50,13 @@ body{
 }
 
 #hero{
-    padding: 5rem;
-    width: 60%;
+    padding: 10rem;
+    /* width: 60%; */
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15rem;
+    gap: 10rem;
 }
 .hero-left h2{
     font-size: 3.5rem;
