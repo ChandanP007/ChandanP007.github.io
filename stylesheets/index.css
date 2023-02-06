@@ -14,6 +14,11 @@ body{
     font-size: 20px;
 }
 .navs2 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navs2 ul{
     list-style: none;
     display: flex;
     gap: 4em;
@@ -27,11 +32,25 @@ body{
 }
 .navs2 ul li a:hover{
     color: black;
+    font-weight: 700;
+}
+.resbtn{
+    text-decoration: none;
+    background: gold;
+    padding: 10px;
+    font-weight: 800;
+    color: black;
+}
+.resbtn:hover{
+    background: rgb(236, 189, 70);
+}
+.lname{
+    color: orange;
 }
 
 
 #hero{
-    padding: 5rem;
+    padding-top: 5rem;
     width: 60%;
     margin: auto;
     display: flex;
