@@ -80,5 +80,5 @@ body{
     background: grey;
     height: 20rem;
 }
-.const-message{
+h1.const-message{
     padding: 5rem;}
